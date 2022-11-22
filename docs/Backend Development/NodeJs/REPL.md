@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 ## What is REPL?
-REPL stands for Read Evaluate Print Loop.
+REPL stands for Read-Evaluate-Print-Loop.
 - R stands for reading operations. It reads the user inputs, parses the input into js data structure and stores in memory.
 - E stands for eval operations. It takes and evaluates the data structure.
 - P stands for return or printing the output. It prints the output.
@@ -54,5 +54,6 @@ Exit the REPL mode
 ```
 .exit
 ```
-
+For more details refer:
+[```NodeJs - DigitalOcean```](https://www.digitalocean.com/community/tutorials/how-to-use-the-node-js-repl)
 

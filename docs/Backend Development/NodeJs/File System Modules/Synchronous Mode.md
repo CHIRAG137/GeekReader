@@ -1,7 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
-File System Module is used for accessing the file in a directory.
+
+The Node.js file system module allows you to work with the file system on your computer.
 
 ## Include fs Module
 ``` 
