@@ -4,15 +4,16 @@ sidebar_position: 2
 
 ## What is REPL?
 REPL stands for Read-Evaluate-Print-Loop.
-- R stands for reading operations. It reads the user inputs, parses the input into js data structure and stores in memory.
-- E stands for eval operations. It takes and evaluates the data structure.
-- P stands for return or printing the output. It prints the output.
-- L stands for looping. It loops above command until user presses ctrl+C twice.
+- **R** stands for reading operations. It reads the user inputs, parses the input into js data structure and stores in memory.
+- **E** stands for eval operations. It takes and evaluates the data structure.
+- **P** stands for return or printing the output. It prints the output.
+- **L** stands for looping. It loops above command until user presses ctrl+C twice.
 
 Use the REPL mode
 ```bash
 > node
 ```
+
 Once REPL mode is opened now you can perform operations like
 - js expressions
 - Multiline loops
@@ -26,6 +27,7 @@ Mathematical operations such as addition, subtraction, multiplication etc can be
 > 6-2
 4
 ```
+
 ### Multiline loops
 REPL mode can also be used when we need to run a multiline loop.
 ```
@@ -35,11 +37,13 @@ REPL mode can also be used when we need to run a multiline loop.
         i=i+1
 ... }
 ```
+
 ### Editor mode
 Run editor mode
 ```
 > .editor
 ```
+
 Now you can use your terminal as an editor.
 ```
 > i=0
@@ -48,12 +52,11 @@ while(i<10){
     i=i+1
 }
 ```
-To run the editor program press ```ctrl+D``` and for leaving the editor mode press ```ctrl+C```.
+
+To run the **editor program** press ```ctrl+D``` and for leaving the **editor mode** press ```ctrl+C```.
 
 Exit the REPL mode
 ```
 .exit
 ```
-For more details refer:
-[```NodeJs - DigitalOcean```](https://www.digitalocean.com/community/tutorials/how-to-use-the-node-js-repl)
 
